@@ -10,7 +10,7 @@ export default function OrderPage() {
   const { cart, updateQuantity, clearCart } = useCart();
   const router = useRouter();
 
-  const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
+  const total = cart.reduce((sum: number, item: any) => sum + item.price * item.quantity, 0);
 
   function handlePlaceOrder() {
     if (cart.length === 0) return;
@@ -28,7 +28,7 @@ export default function OrderPage() {
           <p className="text-gray-500">Your cart is empty.</p>
         ) : (
           <div className="space-y-3">
-            {cart.map((item) => (
+            {cart.map((item: any) => (
               <div
                 key={item.id}
                 className="flex justify-between items-center border-b pb-3"
