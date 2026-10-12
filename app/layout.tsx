@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   description: 'Order delicious meals directly from EDC Kitchen. Fast delivery and fresh ingredients.',
   keywords: ['restaurant', 'food', 'EDC Kitchen', 'order food online'],
   other: {
-    "google-site-verification": "<meta name="google-site-verification" content="a5TAVc3ObbJcPVRrDpnh2OmKpjMTfhk7mf4LmElosuw" />",
+    "google-site-verification": "a5TAVc3ObbJcPVRrDpnh2OmKpjMTfhk7mf4LmElosuw",
   },
 };
 
